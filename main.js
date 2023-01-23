@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
     })
     .then((data) => {
       console.log(data);
-      const display = (document.querySelector(".display").textContent =
-        data.activity);
+      const display = document.querySelector(".display");
+      display.textContent = data.activity;
     });
 });
