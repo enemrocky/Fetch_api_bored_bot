@@ -11,15 +11,6 @@ body{
     margin-bottom: .4rem;
 }
 
-@media(max-width:500px){
-    .heading{
-        font-size: 1.2rem;
-    }
-    .display{
-        font-size: 1.4rem;
-    }   
-}
-
 .display{
     margin: 1.5rem auto 1rem;
 }
