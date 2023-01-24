@@ -1,6 +1,8 @@
 const btn = document.querySelector(".btn");
 
-btn.addEventListener("click", () => {
+btn.addEventListener("click", apiData);
+
+function apiData() {
   fetch("https://apis.scrimba.com/bored/api/activity")
     .then((response) => {
       return response.json();
@@ -14,4 +16,4 @@ btn.addEventListener("click", () => {
       display.style.textAlign = "center";
       display.textContent = data.activity;
     });
-});
+}
