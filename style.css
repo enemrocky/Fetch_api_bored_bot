@@ -7,12 +7,17 @@ body{
     align-items: center;
 }
 
-.heading, h4{
-    margin: 0;
-    padding: 0;
-}
 .heading{
     margin-bottom: .4rem;
+}
+
+@media(max-width:500px){
+    .heading{
+        font-size: 1.2rem;
+    }
+    .display{
+        font-size: 1.4rem;
+    }   
 }
 
 .display{
